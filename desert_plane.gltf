@@ -1,0 +1,138 @@
+{
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 I/O",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "CoarseWhiteSandAndShells",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.800000011920929
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "CoarseWhiteSandAndShells_2k_normal.jpg",
+            "uri" : "CoarseWhiteSandAndShells_2k_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "CoarseWhiteSandAndShells_2k_diffuse.jpg",
+            "uri" : "CoarseWhiteSandAndShells_2k_diffuse.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4483,
+            "max" : [
+                200.11782836914062,
+                6.658298015594482,
+                200
+            ],
+            "min" : [
+                -200.50860595703125,
+                -0.3357931971549988,
+                -200.17266845703125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4483,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4483,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6966,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 53796,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53796,
+            "byteOffset" : 53796
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35864,
+            "byteOffset" : 107592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13932,
+            "byteOffset" : 143456
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 157388,
+            "uri" : "desert_plane.bin"
+        }
+    ]
+}
